@@ -3,8 +3,8 @@ package main
 import "sync"
 
 var (
-	Datas	map[string]string
 	Sync	sync.Mutex
+	Datas	map[string]string
 )
 
 func DataInit() {
